@@ -16,7 +16,7 @@ const StyledDiv = styled.div`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 339px;
+      margin-top: 290px;
       .principal{
         background: #303841;
         color: #FFF200;
