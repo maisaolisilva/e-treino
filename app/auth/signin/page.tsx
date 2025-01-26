@@ -13,6 +13,7 @@ const StyledDiv = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 20px;
         form{
             display: flex;
             flex-direction: column;
@@ -24,7 +25,8 @@ const StyledDiv = styled.div`
                 flex-direction: column;
                 gap: 10px;
                 input{
-                    background: #303841;
+                    border: #FFF200 3px solid;
+                    background: none;
                     padding: 9px 21px;
                     color: #FFF200;
                 }
@@ -34,7 +36,8 @@ const StyledDiv = styled.div`
                 }
             }
             button{
-                background: #303841;
+                border: #FFF200 3px solid;
+                border-radius: 20px;
                 color: #FFF200;
                 padding: 8px 40px;
                 text-align: center;
@@ -60,7 +63,7 @@ export default function SignInPage() {
                         <label htmlFor="password">Senha:</label>
                         <input type="password" name="password" id="password" placeholder="sua senha"/>
                     </div>
-                    <button type="submit">Entrar</button>
+                    <button >Entrar</button>
                 </form>
                 <Link href="./register" className="principal">Criar Conta</Link>
             </main>
