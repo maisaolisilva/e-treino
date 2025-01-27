@@ -43,6 +43,10 @@ const StyledDiv = styled.div`
                 border-radius: 20px;
                 margin-bottom: 50px;
             }
+            .date {
+                color: #FFF200;
+                background: transparent;
+            }
         }
     }
     
@@ -70,7 +74,7 @@ export default function RegisterPage() {
                     </div>
                     <div>
                         <label htmlFor="birthDate">Data de Nascimento:</label>
-                        <input type="date" name="birthDate" id="birthDate" />
+                        <input  className="date" type="date" name="birthDate" id="birthDate" />
                     </div>
                     <button >Criar conta</button>
                 </form>
