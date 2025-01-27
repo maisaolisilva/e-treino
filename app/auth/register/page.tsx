@@ -43,10 +43,6 @@ const StyledDiv = styled.div`
                 border-radius: 20px;
                 margin-bottom: 50px;
             }
-            .date {
-                color: #FFF200;
-                background: transparent;
-            }
         }
     }
     
