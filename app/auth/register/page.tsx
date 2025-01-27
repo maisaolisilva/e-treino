@@ -70,7 +70,7 @@ export default function RegisterPage() {
                     </div>
                     <div>
                         <label htmlFor="birthDate">Data de Nascimento:</label>
-                        <input type="date" name="password" id="password" placeholder="sua senha"/>
+                        <input type="date" name="birthDate" id="birthDate" />
                     </div>
                     <button >Criar conta</button>
                 </form>

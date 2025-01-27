@@ -27,11 +27,18 @@ const StyledDiv = styled.div`
         border-radius: 20px;
         text-align: center;
         border: #FFF200 2px solid;
-          @media (min-width: 1024px) {
-              font-size: 48px;
-          }
       }
+      
     }
+    @media (min-width: 1024px) {
+        font-size: 35px;
+        .imagem {
+          margin-top: 30px;
+        }
+        section {
+          margin-top: 150px;
+        }
+      }
   }
 `
 
