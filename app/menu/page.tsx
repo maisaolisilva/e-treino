@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import styled from "styled-components";
 import Image from "next/image";
@@ -12,30 +12,34 @@ const StyledDiv = styled.div`
     width: 100%; 
     max-width: 1200px; 
     margin: 0 auto; 
-    header{
+
+    header {
         margin-top: 3px;
         display: flex;
         align-items: end;
         justify-content: end;
         width: 100%;
-        .botaoPerfil{
+        .botaoPerfil {
             display: flex;
             background: #303841;
             padding: 7px 8px;
         }
     }
-    main{
+
+    main {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    section{
+
+    section {
         margin-top: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 16.36px;
-        a{
+
+        a {
             color: #FFF200;
             background: #303841;
             padding: 13px 45px;
@@ -48,10 +52,10 @@ const StyledDiv = styled.div`
             }
         }
     }
-`
+`;
 
 export default function MenuPage() {
-    return(
+    return (
         <StyledDiv>
             <header>
                 <Link className="botaoPerfil" href="">
@@ -63,12 +67,12 @@ export default function MenuPage() {
                         alt="Imagem de uma mão segurando um halter" 
                         width={167} height={133} />
                 <section>
-                    <Link href="">Iniciante</Link>
-                    <Link href="">Intermediário</Link>
-                    <Link href="">Avançado</Link>
-                    <Link href="">Melhor Idade</Link>
+                    <Link href="/menu/treinosDisponiveis/iniciante">Iniciante</Link>
+                    <Link href="/menu/treinosDisponiveis/intermediario">Intermediário</Link>
+                    <Link href="/menu/treinosDisponiveis/avancado">Avançado</Link>
+                    <Link href="/menu/treinosDisponiveis/melhor-idade">Melhor Idade</Link>
                 </section>
             </main>
         </StyledDiv>
-    )
+    );
 }

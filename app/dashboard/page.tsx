@@ -50,8 +50,8 @@ export default function DashboardPage() {
                     width={167} height={133} />
                 <h1>Dashboard</h1>
                 <section className="menu">
-                    <Link href="/dashboard">Criar treino</Link>
-                    <Link href="/dashboard">Ver treinos dispiníveis</Link>
+                    <Link href="/dashboard/criarTreino">Criar treino</Link>
+                    <Link href="/dashboard/treinosAdm">Ver treinos dispiníveis</Link>
                     <Link href="/dashboard">Adicionar usuário</Link>
                     <Link href="/dashboard">Excluir usuário</Link>
                     <Link href="/dashboard">Bloquear usuário</Link>
