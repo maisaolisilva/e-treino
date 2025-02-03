@@ -11,7 +11,7 @@ const StyledDiv = styled.div`
   align-items: center;
   main{
     .imagem {
-      margin-top: 50px;
+      margin-top: 40px;
     }
     section{
       display: flex;
