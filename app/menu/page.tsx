@@ -58,7 +58,7 @@ export default function MenuPage() {
     return (
         <StyledDiv>
             <header>
-                <Link className="botaoPerfil" href="">
+                <Link className="botaoPerfil" href="/perfil">
                     <HiUser size={56} color="#FFF200"/>
                 </Link>
             </header>
