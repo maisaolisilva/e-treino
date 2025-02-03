@@ -23,8 +23,14 @@ const StyledDiv = styled.div`
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
+                select {
+                    background: transparent;
+                    border: #FFF200 3px solid;
+                    padding: 3px;
+                }
                 select option {
-                    font-size: 12px;
+                    font-size: 15px;
+                    color: #000000;
                 }
                 input{
                     border: #FFF200 3px solid;
