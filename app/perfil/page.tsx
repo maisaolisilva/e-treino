@@ -2,6 +2,7 @@
 
 import styled from "styled-components";
 import { HiUser } from "react-icons/hi2";
+import Link from "next/link";
 
 const StyledDiv = styled.div`
 display: flex;
@@ -20,6 +21,15 @@ h1{
     background: #303841;
     width: 232px;
     height: 223px;
+}
+a {
+    border: #FFF200 3px solid;
+    border-radius: 20px;
+    color: #FFF200;
+    padding: 8px 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
 }
 form{
     display: flex;
@@ -63,20 +73,21 @@ export default function perfil(){
                 <HiUser size={200} color="#FFF200"/>
             </div>
             <form>
-                    <div>
-                        <label htmlFor="email">E-mail:</label>
-                        <input type="email" name="email" id="email" placeholder="exemplo@email.com"/>
-                    </div>
-                    <div>
-                        <label htmlFor="fullName">Nome Completo:</label>
-                        <input type="text" name="fullName" id="fullName" placeholder="Nome completo"/>
-                    </div>
-                    <div>
-                        <label htmlFor="birthDate">Data de Nascimento:</label>
-                        <input type="date" name="password" id="password" placeholder="sua senha"/>
-                    </div>
-                    <button type="submit">Salvar Alterações</button>
-                </form>
+                <div>
+                    <label htmlFor="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="exemplo@email.com"/>
+                </div>
+                <div>
+                    <label htmlFor="fullName">Nome Completo:</label>
+                    <input type="text" name="fullName" id="fullName" placeholder="Nome completo"/>
+                </div>
+                <div>
+                    <label htmlFor="birthDate">Data de Nascimento:</label>
+                    <input type="date" name="password" id="password" placeholder="sua senha"/>
+                </div>
+                <button type="submit">Salvar Alterações</button>
+            </form>
+                <Link href="">Conferir progresso</Link>
         </StyledDiv>
     )
 }
